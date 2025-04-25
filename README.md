@@ -9,7 +9,7 @@ This project folder contains an early experiment training a basic machine learni
 - [Connect 4 – Initial ML Agent Training Attempt](#connect-4--initial-ml-agent-training-attempt)
 - [Overview](#overview)
 - [Files](#files)
-- [Dataset](#dataset)
+- [References](#references)
 - [Optional Setup](#optional-setup)
 - [GitHub Version (Optional)](#github-version-optional)
 
@@ -29,8 +29,11 @@ It differs from the models used in the final game, which predict the best move i
 
 ---
 
-## Dataset
-Connect 4 dataset from UCI Machine Learning Repository: https://archive.ics.uci.edu/dataset/26/connect+4
+## References
+- Connect 4 dataset from UCI Machine Learning Repository:
+  - https://archive.ics.uci.edu/dataset/26/connect+4
+- Scikit-learn: Machine Learning in Python
+  - https://scikit-learn.org/stable/index.html
  
 ---
 
