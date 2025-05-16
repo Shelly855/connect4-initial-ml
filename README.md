@@ -1,22 +1,15 @@
 # Connect 4 – ML Agent Training
 
-This repository trains a basic machine learning agent to predict outcomes in Connect 4 using the UCI dataset.
+This repository trains a basic machine learning agent to predict outcomes in Connect 4 using the UCI dataset. It differs from the models used in the [final game](https://github.com/Shelly855/connect4-ai), which predict the best move instead.
 
 ---
 
 ## Table of Contents
 
 - [Connect 4 – ML Agent Training](#connect-4--ml-agent-training)
-- [Overview](#overview)
 - [Files](#files)
 - [References](#references)
 - [Optional Setup](#optional-setup)
-
----
-
-## Overview
-Trains a model to predict the final outcome of a Connect 4 board.
-It differs from the models used in the [final game](https://github.com/Shelly855/connect4-ai), which predict the best move instead.
 
 ---
 
