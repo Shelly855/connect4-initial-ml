@@ -1,23 +1,22 @@
-# Connect 4 – Initial ML Agent Training Attempt
+# Connect 4 – ML Agent Training
 
-This project folder contains an early experiment training a basic machine learning agent to predict outcomes in Connect 4 using the UCI dataset.
+This repository trains a basic machine learning agent to predict outcomes in Connect 4 using the UCI dataset.
 
 ---
 
 ## Table of Contents
 
-- [Connect 4 – Initial ML Agent Training Attempt](#connect-4--initial-ml-agent-training-attempt)
+- [Connect 4 – ML Agent Training](#connect-4--ml-agent-training)
 - [Overview](#overview)
 - [Files](#files)
 - [References](#references)
 - [Optional Setup](#optional-setup)
-- [GitHub Version (Optional)](#github-version-optional)
 
 ---
 
 ## Overview
-This was an early attempt at training a model to predict the final outcome of a Connect 4 board.
-It differs from the models used in the final game, which predict the best move instead.
+Trains a model to predict the final outcome of a Connect 4 board.
+It differs from the models used in the [final game](https://github.com/Shelly855/connect4-ai), which predict the best move instead.
 
 ---
 
@@ -25,7 +24,7 @@ It differs from the models used in the final game, which predict the best move i
 
 - `connect4_dataframe.ipynb` – Preprocesses the UCI dataset and trains an outcome-predicting model
 - `connect-4.data` – UCI dataset of historical Connect 4 games  
-- `ml_agent.pkl` – Model saved from this notebook (not used in final project)
+- `ml_agent.pkl` – Model saved from this notebook
 
 ---
 
@@ -39,7 +38,7 @@ It differs from the models used in the final game, which predict the best move i
 
 ## Optional Setup
 
-If you'd like to rerun the notebook locally:
+To rerun the notebook locally:
 
 1. Ensure Python 3 is installed.
 2. Install required packages:
@@ -48,10 +47,3 @@ If you'd like to rerun the notebook locally:
   ```
 3. Open and run the notebook: `connect4_dataframe.ipynb`
 > The notebook was created in Jupyter Notebook. You can also open it in VS Code with the Jupyter extension.
-
----
-
-## GitHub Version (Optional)
-
-[View this folder on GitHub](https://github.com/Shelly855/connect4-initial-ml)  
-> **Note:** This GitHub link is optional and not required for marking. The repository may be updated after submission.
